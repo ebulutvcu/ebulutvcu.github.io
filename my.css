@@ -1,0 +1,83 @@
+a:link, a:visited, a:active {color: #000099;
+background-color: #ffffff;
+text-decoration: none;
+font-family: Sans-Serif;}
+
+a:hover {color: #ffffff;
+background-color: #000099;
+text-decoration: none;
+font-family: Sans-Serif;}
+
+a.img:link, a.img:visited, a.img:active, a.img:hover {color: none;
+background-color: #000099;
+border-right: 0px;
+padding: 0px;
+border: 0px none;
+font-family: Sans-Serif;
+}
+
+a.imgtext:link, a.imgtext:visited, a.imgtext:active, a.imgtext:hover {color: none;
+background-color: #ffffff;
+border-right: 0px;
+padding: 0px;
+border: 0px none;
+font-family: Sans-Serif;
+}
+
+a.imgcc:link, a.imgcc:visited, a.imgcc:active, a.imgcc:hover {color: none;
+background-color: #555555;
+border-right: 0px;
+padding: 0px;
+border: 0px none;
+font-family: Sans-Serif;
+}
+
+h1 {
+padding-left: 5px;
+font-family: Sans-Serif;
+}
+
+h3 {
+padding-left: 5px;
+font-family: Sans-Serif;
+}
+
+h4 {
+padding-left: 5px;
+font-family: Sans-Serif;
+}
+
+p {
+padding-left: 5px;
+padding-right: 5px;
+font-family: Sans-Serif;
+}
+
+a.menu:link, a.menu:visited, a.menu:active {color: #ffffff;
+background-color: #000099;
+padding: 0px;
+font-family: Sans-Serif;
+}
+
+a.current:link, a.current:visited, a.current:active {color: #000099;
+background-color: #ffffff;
+padding: 0px;
+font-family: Sans-Serif;
+}
+
+a.menu:hover, a.current:hover {color: #000099;
+background-color: #ffffff;
+font-family: Sans-Serif;
+}
+
+img.leftfloat { 
+float: left; 
+margin: 4px; 
+font-family: Sans-Serif;
+}
+
+img.rightfloat { 
+float: right; 
+margin: 4px; 
+font-family: Sans-Serif;
+}

@@ -28,7 +28,21 @@ info">
             e.initEvent('click',true,true);                       
             gwProxy.dispatchEvent(e);                             
          }                                                        
-      }                                                           
+      } 
+
+
+function toggleText() {
+    var moreText = document.getElementById("moreText");
+    var btn = document.getElementById("btn");
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerHTML = "Read less";
+    } else {
+        moreText.style.display = "none";
+        btn.innerHTML = "Read more";
+    }
+}
                                                                   
       function jsCall()                                           
       {                                                           
@@ -279,9 +293,8 @@ href="/publications.html">
 <li> [May/23] <b>Two new grants received!</b> 1) "iTREAT - Improved Treatment using Advanced Technologies" ($269k) funded by Commonwealth Health Research Board (CHRB) - PI: Pidcoe from Physical Therapy, 2) "A Device Free WiFi Sensing System to Assess Daily Activities and Mobility in Low-Income Older Adults With and Without Cognitive Impairment" ($150k), funded by PennAITech Center (NIH funded center in UPenn) - role: mPI, leadPI: Jane Chung from Nursing</li>
 <li> [May/23] Steven defended his Ph.D. dissertation and graduated. Congrats!. </li>
 <li> [April/23] Congratulations to Steven for getting <a href="/OutstandingPaperSteven23.pdf">Outstanding Paper Award </a> for <a href="/COMST22_WiFi_Sensing_Survey.pdf">his paper</a> published in IEEE Communications Surveys & Tutorials (IF: 33.84). </li>
-<!--
-<li> [Jan/23] Dr. Bulut and <a href="https://www.csc.ncsu.edu/people/mshahza">Dr. Shahzad</a> from NCSU are organizing a workshop on device-free wireless sensing (<a href="https://ebulutvcu.github.io/WiSense23">WiSense'23</a>) in WoWMoM 2023, Boston, June 12-15. Submit your original works before March 1st, through <a href="https://edas.info/newPaper.php?c=30480">Edas</a>. </li>
--->
+<button onclick="toggleText()" id="btn">Read older news..</button>
+	<span id="moreText" style="display:none;">
 <li> [Dec/22] <a href="/Percom2023_AntiEve.pdf">Our paper</a> proposing a solution against adversarial WiFi sensing is accepted to appear in Percom 2023 (acceptance ratio 17% (27/159)). </li>
 <li> [Nov/22] Dr. Bulut is invited to serve as TPC co-chair of <a href="https://ieeemass2023.github.io/ieeemass2023/">IEEE MASS 2023.</a> </li>
 <li> [Sept/22] Dr. Bulut will serve as TPC chair of <a href="https://www.ieeelcn.org/index.html">IEEE LCN 2023.</a> </li>
@@ -358,6 +371,7 @@ href="/publications.html">
 <li> [June/16] <a href="/comnet-2016.pdf">Our paper</a> is accepted to appear in Computer Networks.</li>
 <li> [Oct/15] h-index = 16, i-index=18 (from Google scholar <a href="http://scholar.google.com/citations?user=wvvIyOwAAAAJ">profile</a>) </li>
 <li> [Sept 15] MoWiNG Lab is founded.</li>
+</span>
 </ul>
 </p>
 		
